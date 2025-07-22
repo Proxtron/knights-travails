@@ -1,4 +1,4 @@
 import Graph from "./Graph.js";
 
 const graph = new Graph();
-console.log(graph.adjacencyList);
+graph.knightMoves([3,3],[4,3])
